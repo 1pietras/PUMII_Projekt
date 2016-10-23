@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instruction>
+    <version>1.1</version>
+    <name>Game rules</name>
+    <entry>
+        <id>1</id>
+        <name>Navigation</name>
+        <description>
+            While you will be exploring dungeons, you will have to decide, which path you would like to take,
+            or whether perform some action or another.
+            You can do this by swiping.
+            During each paragraph with navigation you will be told that you have to perform following swipe
+            to perform selected action.
+            During fights, checking of luck and, dice games, you will have to roll a dice.
+            To do so double tap your screen. You will hear your dice rolling.
+        </description>
+    </entry>
+    <entry>
+        <id>2</id>
+        <name>Equipment and attributes</name>
+        <description>
+            You are daredevil.
+            Your have following equipment: sword, shield, lamp, and backpack for food.
+            Walking through dungeons you will find other items and weapons.
+            Remember that you can use each item only once, except for sword.
+
+            Your character have following attributes: agility, vitality, and luck.
+            Before entering the dungeon you will set your attributes by rolling virtual dice.
+            Agility and luck is calculated from single dice roll, and score is added to 6.
+            Vitality is calculated from double dice roll, and score is added to 12.
+            Level of your attributes will vary over your adventure.
+
+            You can look up your attributes and equipment using swipe up gesture in the moments
+            where it is possible, except for crossroad paragraph.
+        </description>
+    </entry>
+    <entry>
+        <id>3</id>
+        <name>Fight</name>
+        <description>
+            During your adventure you will fight with creatures.
+            Creatures have their agility and vitality attributes, which are provided during game.
+            Fight consists of the following phases.
+            1. Player roll dices to determine his attack power during turn,
+            2. Attack power of creature is calculated as two dice rolls plus creature's agility,
+            3. You attack power is calculated as two dice rolls plus your agility,
+            4. If your attack power is less than creature's, you are getting wound and your vitality is decreased by 2.
+            If your attack power is greater than creature's, creature is getting wound and its vitality is decreased by 2.
+            If yours attack powers are equal you go back to first step.
+            5. You must try your luck, which is described later and affects damage done.
+            6. Go to first step until you or creature's vitality reach 0, which means death.
+        </description>
+    </entry>
+    <entry>
+        <id>4</id>
+        <name>Escape</name>
+        <description>
+            While you are in danger, there is possibility to save yourself by running away.
+            But it is only possible on specific situations mentioned by speaker.
+            If you run away, creature hurts you and your vitality is decreased by 2.
+            You can try your luck during escape in the way that is described later.
+        </description>
+    </entry>
+    <entry>
+        <id>5</id>
+        <name>Luck</name>
+        <description>
+            During your adventure there are moments that you have try your luck.
+            To try your luck you roll dice twice and sum the result.
+            If your result is less or equal to your luck, it means you have luck. Otherwise you don't.
+            After each try your luck is decreased by 1.
+            The meaning of having or not having luck is described by the speaker during specific adventure moments.
+            During a fight there is possibility to try you luck.
+            If you hurt creature, you can either have luck and decrease creature's vitality by 4 in overall
+            or don't have luck and decrease it by 1 in overall.
+            If you were hurt during fight, you can either have luck and decrease your vitality by 1 in overall
+            or don't have luck and decrease it by 3.
+        </description>
+    </entry>
+    <entry>
+        <id>6</id>
+        <name>Attributes level up</name>
+        <description>
+            During your adventures your attributes level can change.
+            Agility can be changed by wearing weapon or because of paragraph's effects.
+            Vitality can be either restored by eating a meal, which increase it by 4 or
+            changed by means of paragraph's effects.
+            You vitality is also decreased during fight.
+            Luck can be changed by means of specific items or because of paragraph's effects.
+        </description>
+    </entry>
+    <entry>
+        <id>7</id>
+        <name>Food</name>
+        <description>
+            In your backpack you will find 4 meals.
+            You can eat your meal if adventure allows it. You can eat only 1 at a time.
+            Eating a meal increase your vitality by 4.
+        </description>
+    </entry>
+    <entry>
+        <id>8</id>
+        <name>Goal</name>
+        <description>
+            Your goal is to get to the treasury. You will walk through a maze of corridors.
+            You will visit many chambers, in which you will meet various creatures.
+            You will meet a variety of surprises. Probably you will be caught in some traps.
+
+            Finding the right path and defeating creatures won't be easy.
+            Doubtless you will have to take a few expeditions till you reach your goal.
+            Good luck!
+        </description>
+    </entry>
+</instruction>

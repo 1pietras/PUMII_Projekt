@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gamebook>
+    <items>
+        <item id="1" type="apparel" attr="luck" value="2">Keeper's horn</item>
+        <item id="2" type="miscellaneous">Golden claw</item>
+        <item id="3" type="weapon" attr="agi" value="2">Steel sword</item>
+        <item id="4" type="armor" attr="vit" value="3">Studded helmet</item>
+        <item id="5" type="apparel" attr="luck" value="1">Talisman of luck</item>
+        <item id="6" type="miscellaneous">Emerald</item>
+        <item id="7" type="miscellaneous">Gold</item>
+        <item id="8" type="weapon" attr="agi" value="3">Mace</item>
+        <item id="9" type="miscellaneous">Golden key</item>
+    </items>
+    <creatures>
+        <creature id="1" agi="9" vit="10">Troll</creature>
+        <creature id="2" agi="10" vit="8">Ogre</creature>
+        <creature id="3" agi="11" vit="9">Dungeon guard</creature>
+        <creature id="4" agi="10" vit="6">Wolf</creature>
+        <creature id="5" agi="8" vit="5">Mercenaries</creature>
+    </creatures>
+    <paragraph id="0" type="singlepath">
+        <text>
+            Hey, Daredevil! It is about you say, that in your veins flows ice-cold water
+            and your muscles are made from finest steel.
+            If so, look into the sunset. There at the border of Almanhagor Kingdom begins unexplored dungeon.
+            Only you can discover its Great Secret.
+            Good luck!
+        </text>
+        <path>1</path>
+    </paragraph>
+    <paragraph id="1" type="normal">
+        <text>
+            Entrance to the dungeons is wide, overgrown with grass and lush bushes.
+            You rearrange your clothes and equipment. Light the lantern!
+            You are entering the corridor. It is high, so you don't have to stoop.
+            It leads you straight to the north. Soon you reach the T shaped crossroad.
+            Its branches leads to the west, east and south. From where you came.
+            There is also an old man sitting on the rock. He open his mouth with difficulty and says
+            that you should go west, and then take few right turns and you will reach your goal.
+            Will you listen to him and go west? If yes, swipe right.
+            Otherwise go east and, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">2</path>
+            <path swipe="left">3</path>
+        </paths>
+    </paragraph>
+    <paragraph id="2" type="normal">
+        <text>
+            You are walking forward. It is so dark that you can't even see what is in front of you.
+            But you are brave, you would not be scared by the darkness or strange noises around.
+            For some reason you feel anxiety. Wait! There are doors on your right.
+            Are you willing to open them? Swipe right.
+            If you want to go further, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">4</path>
+            <path swipe="left">5</path>
+        </paths>
+    </paragraph>
+    <paragraph id="3" type="singlepath">
+        <text>
+            So you decided not to listen the old fool and go east. Your each step echo against the walls.
+            But you walk confident, because you see some light at the end of a hallway.
+            You cannot wait to see what is there. There is also some strange noise coming from the front.
+            It sounds like a mad man laugh.
+        </text>
+        <path>6</path>
+    </paragraph>
+    <paragraph id="4" type="normal">
+        <text>
+            The doors are not looking solid. You catch the handle of the door.
+            And you try to open them. But they won't even move, so you began to pull the handle harder.
+            You can't open them, they are locked.
+            If you would like to break them down, swipe right.
+            And if would you like to continue walking along the hallway, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">7</path>
+            <path swipe="left">5</path>
+        </paths>
+    </paragraph>
+    <paragraph id="5" type="normal">
+        <text>
+            You are wondering just few steps further and the hallway turns right to the north.
+            Just another black hole in front of you. It feels like you are just going nowhere.
+            You took a few steps more and realized that something stinks over here.
+            It smells like a dead rat and pair of old sweaty stockings mixed together.
+            You cover your mouth and discover that you can go right by, swiping right.
+            Or go forward by, swiping left.
+        </text>
+        <paths>
+            <path swipe="right">8</path>
+            <path swipe="left">9</path>
+        </paths>
+    </paragraph>
+    <paragraph id="6" type="singlepath">
+        <text>
+            You got yourself a little bit closer to the source of the noise.
+            You notice a half naked man chained to the walls. A man was almost hanging from that wall,
+            but he seemed happy. He noticed you and begun to speak.
+            Hello stranger! What a lovely sunny day we have. Look at those beautiful birds flying on the horizon...
+            Oh, excuse me sir. Where are my manners.. Are you thirsty my lord?
+            Please take some of this water and drink with me. You will not regret it.
+            He is clearly out of his mind, but he is pointing towards the light source with his head.
+            You are anxious of the mystery behind this, so you decided to go towards the light source.
+        </text>
+        <path>10</path>
+    </paragraph>
+    <paragraph id="7" type="singlepath">
+        <text>
+            You took a momentum and smashed the door. As I told you, they weren't solid and
+            you broke them to many wooden pieces. You immediately heard that something is snoring loudly.
+            It was dark inside so you picked up your lantern and you noticed big shaggy and stinky troll
+            laying in the corner of the chamber you have entered. You were lucky that he didn't woke up
+            while you broke through the doors.
+        </text>
+        <path>11</path>
+    </paragraph>
+    <paragraph id="8" type="singlepath">
+        <text>
+            And so you walked into some chamber. The stink has become more intense.
+            Your lantern discovers the chamber and its content. It turns out that big shaggy troll
+            is just laying in the corner sleeping and snoring.
+        </text>
+        <path>11</path>
+    </paragraph>
+    <paragraph id="9" type="checkluck">
+        <text>
+            And so you go forward through the darkness where your lantern is your only guide.
+            It is all quiet. You can only hear your own steps. And so you walk and walk.
+            But suddenly silence was interrupt by the sound of breaking string.
+            After that you have heard loud knocking above you.
+            You have to check your luck to see what is going to happen next.
+        </text>
+        <luckypath>12</luckypath>
+        <unluckypath>13</unluckypath>
+    </paragraph>
+    <paragraph id="10" type="crossroad">
+        <text>
+            And so you have entered a chamber. It was surprisingly lit and peaceful.
+            In the center of the room there was a fountain of a fat goblin size.
+            You can only hear the sound of the falling water.
+            You took few more steps towards the fountain.
+            Hello there, my friend. You head someone saying. But all you can see is just some doors
+            to the north, and heading west. Who is that? You asked.
+            I am here. He answered and you noticed some person abut against the wall.
+            Go, drink some of this water with me, and let's have a talk. He proposed.
+            If you trust him, swipe right, and take some water.
+            Otherwise try to attack him by, swiping down.
+            There is also a possibility of leaving this chamber using northern doors, by swiping up,
+            or using western doors by, swiping left.
+        </text>
+        <paths>
+            <path swipe="right">16</path>
+            <path swipe="down">15</path>
+            <path swipe="up">18</path>
+            <path swipe="left">17</path>
+        </paths>
+    </paragraph>
+    <paragraph id="11" type="normal">
+        <text>
+            You have noticed that that troll is holding something shining in his hands.
+            If would like to take it, swipe right.
+            But if just want to go further, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">19</path>
+            <path swipe="left">20</path>
+        </paths>
+    </paragraph>
+    <paragraph id="12" type="singlepath">
+        <text>
+            The knocking was getting louder and louder, but you decided to go few steps forward.
+            At this moment dozen of cannon balls dropped from above. But you were lucky and nothing happened to you.
+            For sure it was a trap, but that gave you a feeling that you are walking in good direction.
+        </text>
+        <path>14</path>
+    </paragraph>
+    <paragraph id="13" type="singlepath">
+        <text>
+            The knocking was getting louder and louder, but you didn't really know what to do.
+            Something just hit you from the back. It was such an impact that you fell to the ground and lost consciousness...
+            You woke up a moment later and realized it was some sort of trap.
+            Because of the damage you lost four of you vitality.
+        </text>
+        <path>14</path>
+        <effects>
+            <effect attr="vit">-4</effect>
+        </effects>
+    </paragraph>
+    <paragraph id="14" type="crossroad">
+        <text>
+            And so you went further and got to the crossroad, and three paths has appeared.
+            All of the paths were looking exactly the same and so you got confused about which to choose.
+            You can choose to go east by, swiping right.
+            Or you can go north by, swiping up.
+            But also you can go west by swiping left.
+        </text>
+        <paths>
+            <path swipe="right">21</path>
+            <path swipe="up">22</path>
+            <path swipe="left">23</path>
+        </paths>
+    </paragraph>
+    <paragraph id="15" type="singlepath">
+        <text>
+            So you decided to attack. You have drawn your sword and immediately rushed toward the enemy.
+            It took you about 2 seconds to reach your target, but that strange person didn't ever moved
+            a bit. You have swang your sword. And the character disappeared, so you just hit the air.
+            After that a strange voice said. You will regret it!
+        </text>
+        <path>24</path>
+    </paragraph>
+    <paragraph id="16" type="singlepath">
+        <text>
+            You have leaned towards fountain and you got some water in your hands.
+            It was simply pure. You took a sip. You felt like it was the tastiest water you have ever drunk.
+            It was very refreshing and for sure it was enchanted. You have gain two points of vitality.
+        </text>
+        <path>26</path>
+        <effects>
+            <effect attr="vit">2</effect>
+        </effects>
+    </paragraph>
+    <paragraph id="17" type="singlepath">
+        <text>
+            You have grabbed a handle of the doors and opened them.
+            A narrow corridor lays ahead of you. The way is lit by the torches hanging on the walls.
+            It has to lead somewhere! And so you walk and the corridor turns right,
+            and just after the turn stairway to the lower level of the dungeon begins.
+            While you are descending down the stairs, you notice that they are made of stone.
+            They were probably made by the old dwarves, in the times when they were
+            working hard, just digging deeper to find some treasures, or to seek legendary adventures.
+            Nowadays, I don't know any dwarf that would move his fat belly further than 100 feets from
+            his kitchen or garden.
+            But let's back to the story. You have just reached lower level of the dungeon.
+            In front of you lays dwarven mining corridor.
+            Unfortunately corridors walls aren't equipped with torches any more.
+            Your surrounding is enveloped into darkness. But you are brave and you go forward.
+            You are beginning to see the end of the tunnel and you hear the howling dragon.
+            It was so terrifying that you have goose pimples.
+            You left the corridor and found yourself in some giant rift.
+        </text>
+        <path>27</path>
+    </paragraph>
+    <paragraph id="18" type="crossroad">
+        <text>
+            Your way is to the north. You have opened the door and entered a tunnel that leads you to
+            another chamber. The doorplate says that this is armory. So you open doors slowly
+            expecting someone to be inside it. But there is no one inside.
+            Your torch lit up the armory. You can see that fine swords are hanging on the eastern wall of the chamber.
+            On the western wall there are many armor parts like helmets, boots, chainmails, shields.
+            In the middle of the armory you have found special stand with a golden claw
+            and talisman on it.
+            You can choose one item from the armory.
+            To take the golden claw, swipe right.
+            If you want to take the talisman, swipe left.
+            If you choose to take sword with you, swipe up.
+            And if you would like to equip yourself with helmet, swipe down.
+        </text>
+        <paths>
+            <path swipe="right">28</path>
+            <path swipe="left">29</path>
+            <path swipe="up">30</path>
+            <path swipe="down">31</path>
+        </paths>
+    </paragraph>
+    <paragraph id="19" type="checkluck">
+        <text>
+            You are carefully and quietly moving towards the troll.
+            The item in his hand is an emerald. The prettiest thing you have ever seen.
+            You have leaned and tried to slowly take away the shining treasure from the hands of the stinky troll.
+            You have to check your luck in order to find out if you will succeed or fail.
+        </text>
+        <luckypath>32</luckypath>
+        <unluckypath>33</unluckypath>
+    </paragraph>
+    <paragraph id="20" type="singlepath">
+        <text>
+            You decided not to disturb the troll's dream and go further using the northern doors.
+            You have opened them quietly and entered another dark corridor.
+        </text>
+        <path>34</path>
+    </paragraph>
+    <paragraph id="21" type="singlepath">
+        <text>
+            You have gone east and a moment later, entered a dark chamber.
+        </text>
+        <path>35</path>
+    </paragraph>
+    <paragraph id="22" type="singlepath">
+        <text>
+            You path leads to the north. It feels like its is getting colder with each step.
+            You see a bridge in front of you. But what is it for? Is there some river?
+            You can't hear any water flow. You take some steps forward and realize that the bridge is not meant to cross the river.
+            It is meant to cross a giant rift which starts from west and ends far to the east.
+            The rift is about forty meters hight and about 10 meters wide.
+            You can also observe some lights on its bottom.
+            You have crossed a bridge and found yourself just in front of a steel doors with
+            a sentence, come and play with us, scratched on it.
+            You have pushed the door and hardly opened them, because of their weight.
+        </text>
+        <path>36</path>
+    </paragraph>
+    <paragraph id="23" type="end">
+        <text>
+            You took a path to the west. Is getting windy inside this corridor.
+            Fire revels on your torch and gives you no view of what is laying in front of you.
+            The wind is getting stronger and stronger as you go towards east.
+            Finally your torch went out. You don't have anything around you to light it.
+            But you decided to go few steps more.
+            In absolute darkness you didn't realized that the floor has ended.
+            You have slipped and fall into endless rift...
+            I am sorry, but this is the end of your adventure.
+        </text>
+        <end>loss</end>
+    </paragraph>
+    <paragraph id="24" type="normal">
+        <text>
+            Well... that was wierd. You are astonished of that have happened.
+            It was a fine swing of a sword, and he just turned to smoke and disappeared.
+            All you think about now is to get away from this mysterious chamber.
+            You can walk out thought the north doors by, swiping right.
+            Or use the western doors by, swiping left.
+        </text>
+        <paths>
+            <path swipe="right">18</path>
+            <path swipe="left">25</path>
+        </paths>
+    </paragraph>
+    <paragraph id="25" type="end">
+        <text>
+            You have approached the western doors. They are not locked so you open them and walk into corridor.
+            It is lit with torches hanging on the walls. This way has to lead to some treasure...
+            Suddenly you felt something cold on your wrist. You have dropped you sword.
+            It turned out that you were caught in the trap with you hand shackled.
+            You began to thrash, but it was useless. Some hidden doors opened on the left side of yours
+            and you were dragged inside... I told you that you will regret it. A familiar voice you heard.
+            Now you spend rest of your live in this damp and dark prison of mine.
+            You shall never attack the keeper of the dungeon...
+            Unfortunately this is the end of you adventure.
+        </text>
+        <end>loss</end>
+    </paragraph>
+    <paragraph id="26" type="itempick">
+        <text>
+            Now you feel much stronger, so you walk towards the mysterious person...
+            Come and sit with me. He said.
+            You have sat on the left side...
+            So you are the one they call a daredevil. He continuous.
+            Well... I see you were not possessed by the power of that water.
+            I am sure you have seen just a minute ago what it can do with those weak minds.
+            I don't want to stop you anymore, I know what your goal is.
+            Just let me give you this little horn, which I hope will help you in your way.
+            And also I want to give you some advice...
+            If you want to reach your goal without any further interrupts, pick the western doors...
+            Ok it is my time to go. He said, stood up quickly and left the chamber using the western doors.
+            The horn he gave you gives you two points of luck.
+        </text>
+        <item>1</item>
+        <path>37</path>
+    </paragraph>
+    <paragraph id="27" type="normal">
+        <text>
+            The dragon you heard is just sitting above on the top of the rift.
+            So you hid against the wall.
+            You can see some bridge above it to the west, but it seems like there is no sense of going towards that direction.
+            Moreover it turns out that the way you came here is closed now with some steel gate.
+            You can now choose corridor in front of you which looks like being second part of the one
+            you have just walked through, by swiping left.
+            Or you can continue walking to the eastern side of the rift by, swiping right,
+            it looks like it is turning north some fifty meters from just position.
+        </text>
+        <paths>
+            <path swipe="right">38</path>
+            <path swipe="left">39</path>
+        </paths>
+    </paragraph>
+    <paragraph id="28" type="itempick">
+        <text>
+            You have reached your arm for this fine little piece of gold.
+            Finally your adventure starts to pay off. You have put your little treasure in your bag
+            and left the armory using northern door, thinking that much more valuable treasure is just ahead of you.
+        </text>
+        <item>2</item>
+        <path>40</path>
+    </paragraph>
+    <paragraph id="29" type="itempick">
+        <text>
+            So you decided to pick some fine steel sword from this armory.
+            This little masterpiece of a craft will make you more dangerous during fights.
+            It gives you two points of agility while you bear it.
+            And so you leave the chamber using the northern door, with a new sword in your hand.
+        </text>
+        <item>3</item>
+        <path>40</path>
+    </paragraph>
+    <paragraph id="30" type="itempick">
+        <text>
+            So you are the one that care more about the defence, than about the attack.
+            You picked up a studded helmet and placed it on your head.
+            It feels lite while you move, but hard so it will protect you.
+            And so you leave the chamber using the northern door.
+        </text>
+        <item>4</item>
+        <path>40</path>
+    </paragraph>
+    <paragraph id="31" type="itempick">
+        <text>
+            So you took the talisman to your hands. It was made from mammoth bone pieces and many trinkets.
+            The talisman is enchanted. It gives you a point of a luck.
+        </text>
+        <item>5</item>
+        <path>40</path>
+    </paragraph>
+    <paragraph id="32" type="itempick">
+        <text>
+            He is not holding it hard so you slowly took it away. The shining treasure is yours.
+            The troll have gasped loudly and shifted to his right back.
+            Congratulations! You succeeded! Let's hope he will not find out who has stolen his precious.
+        </text>
+        <item>6</item>
+        <path>41</path>
+    </paragraph>
+    <paragraph id="33" type="fight">
+        <text>
+            He is not holding it hard so you slowly took it away. The shining treasure is yours.
+            But you are a crock and you drop the emerald on the ground.
+            Troll has immediately woke up, took his club and swung it towards you.
+            But you dodge and received no damage...
+            There is no way to escape. You have to face the giant troll.
+        </text>
+        <creature>1</creature>
+        <path>42</path>
+    </paragraph>
+    <paragraph id="34" type="food">
+        <text>
+            You are now walking north. The corridor is dark and you cannot see any light in front of you.
+            It is good time to eat some food, swipe up. But if you want to just continue walking, swipe right.
+        </text>
+        <path>35</path>
+    </paragraph>
+    <paragraph id="35" type="checkluck">
+        <text>
+            You have entered a completely dark chamber. It seems that nothing interesting can be found here.
+            But you will try your luck. Maybe you will find something useful.
+        </text>
+        <luckypath>43</luckypath>
+        <unluckypath>44</unluckypath>
+    </paragraph>
+    <paragraph id="36" type="dicegame">
+        <text>
+            You have entered the chamber, but you could not see anything, because something lights the eyes.
+            Suddenly you felt a blow to the back of your head, and you lost consciousness...
+            You woke up handcuffed. The chamber was filled with dwarves. All the them chamber were staring at you.
+            Finally one of them, who I think is their leader, began to speak...
+            All of you! Look! He woke up! ... Who are you? ... It does not matter.
+            You have disturbed our peaceful chamber, you filthy creature. What should we do with you?
+            He asked the crowd... Let him play the spear throwing! ... and so you will play.
+            You have to throw a single spear into the target.
+            If you will roll one or two, it means that you missed the target and you lose.
+            If you will roll three, four, or five, it means that you hit a target and
+            you will be let free to continue your adventure.
+            But if you will roll six, it means that you hit the central point of the target and
+            you will be let free and receive a gift, because as I heard, no one really did that before.
+            The only problem is that you are still handcuffed and you have to hit the target which is
+            within thirty meters.
+        </text>
+        <ranges>
+            <range from="1" to="2">48</range>
+            <range from="3" to="5">49</range>
+            <range from="6" to="6">50</range>
+        </ranges>
+    </paragraph>
+    <paragraph id="37" type="normal">
+        <text>
+            So what is your decision. Do you want to leave the chamber using the western doors, swipe left,
+            or the northern one, swipe right.
+        </text>
+        <paths>
+            <path swipe="right">18</path>
+            <path swipe="left">17</path>
+        </paths>
+    </paragraph>
+    <paragraph id="38" type="food">
+        <text>
+            You are now sneaking by the walls of the rift, so this might dragon will not notice you.
+            Your steps are confident and quiet. You simply bypassed the dragon and lead yourself north.
+            It is good time to eat some food by, swiping up,
+            or if you would like to continue, swipe right.
+        </text>
+        <path>51</path>
+    </paragraph>
+    <paragraph id="39" type="singlepath">
+        <text>
+            You are passing the rift by going north. It seems that it is some king of cave.
+            It is dark so you can't see its end. But you continue to walk and
+            you take each of your steps carefully and quietly...
+            It turns out it is the dead end. You have nowhere to go.
+            You have laid your sword and began to think what to do next.
+            And so you leaned against the eastern wall... And you felt on your back that the wall
+            began to move to your right. You jumped away of the wall.
+            The new corridor opened to you. It has to be some secret passage.
+            You have picked up your sword and entered the corridor.
+            You can see some person standing in front of you.
+            He is facing north equipped with fine heavy steel armor and wielding his two hand sword.
+            You will have to face him to go further.
+        </text>
+        <path>52</path>
+    </paragraph>
+    <paragraph id="40" type="normal">
+        <text>
+            You have left the armory and just next to it there is another chamber.
+            The doors are opened and you can see someone laughing.
+            You have entered the chamber and it was adorned with trophies.
+            On the western wall you can see some boar's heads.
+            On the eastern wall there is a troll's head and mammoth's head.
+            In the northern part of the chamber just by the doors three people sits by the table and drink some ale.
+            They seems to be some soldiers. They notice you and say.
+            Hello traveler! I am sorry but you have to pay to pass this doors. It costs 10 pieces of gold...
+            You don't have any gold with you, but maybe they will accept some trinket.
+            If you have a golden claw, you can try to offer it for passage by, swiping right.
+            But if you don't want to pay them, swipe left.
+        </text>
+        <paths>
+            <path swipe="right" require="2">53</path>
+            <path swipe="left">54</path>
+        </paths>
+    </paragraph>
+    <paragraph id="41" type="normal">
+        <text>
+            Now you can decide whether you want to go west by, swiping left.
+            Or you can go north by, swiping right.
+        </text>
+        <paths>
+            <path swipe="right">34</path>
+            <path swipe="left">55</path>
+        </paths>
+    </paragraph>
+    <paragraph id="42" type="itempick">
+        <text>
+            You have defeated the troll and took his emerald.
+            It was a hard fight.
+        </text>
+        <item>6</item>
+        <path>41</path>
+    </paragraph>
+    <paragraph id="43" type="itempick">
+        <text>
+            You have found opened chest. You looked inside and found a letter and a mace.
+            This mace is a fine piece of a weapon which gives three points of agility.
+            The letter was presenting some map, which you think is describing part of the dungeon that you are in.
+            The map says that if you will go north you fill find yourself in another chamber.
+            Then you should go east and you will find treasure there...
+            You have put the treasure in your pocket.
+        </text>
+        <item>8</item>
+        <path>58</path>
+    </paragraph>
+    <paragraph id="44" type="singlepath">
+        <text>
+            Unfortunately you haven't found anything useful. There were just bones, used torches and
+            pieces of leather.
+        </text>
+        <path>58</path>
+    </paragraph>
+    <paragraph id="45" type="checkluck">
+        <text>
+            You are walking north and you can see that a broken bridge is ahead of you.
+            Below it there is a quite deep rift which is going from west to far east.
+            But you observe that the hole in the bridge isn't that big and you can try to jump over it.
+            You have to try your luck to jump over the hole in the bridge.
+        </text>
+        <luckypath>46</luckypath>
+        <unluckypath>47</unluckypath>
+    </paragraph>
+    <paragraph id="46" type="singlepath">
+        <text>
+            You took a long run and you jumped as far as you can. It was risky, but you succeeded!
+            Now you are on the other side of the rift. You rearrange you cloths and equipment once again.
+            What else there is to do like not to continue your adventure to the north.
+            The corridor was long, but you were able to see the gate lit with torches at the end of it...
+            You reached the gate and was looking for a way to open it.
+            Finally you found a lever on the you left and you pulled it.
+            Gated began to rise slowly.
+        </text>
+        <path>56</path>
+    </paragraph>
+    <paragraph id="47" type="singlepath">
+        <text>
+            You took a long run and you jumped as far as you can... But unfortunately it was not enough.
+            You reached the edge of the other side of the bridge, but you slipped and fall to the bottom of rift
+            and lost conscious... You woke up a bit letter. You are hurt.
+            Lost four points of vitality and two points of luck...
+            You have put yourself together. Suddenly you heard dragon howl.
+            It was so terrifying that you have goose pimples.
+            But you have no other way just to go east towards the howl source, because there
+            is nothing on western side of the rift.
+        </text>
+        <effects>
+            <effect attr="vit">-4</effect>
+            <effect attr="luck">-2</effect>
+        </effects>
+        <path>27</path>
+    </paragraph>
+    <paragraph id="48" type="end">
+        <text>
+            You took a spear in your hands it was heavy and distorted, but you had no choice,
+            you had to take a swing and throw the spear towards target...
+            But you failed, the spear dabbed a target and landed next to it.
+            And so you lost... They took you, you were trying to resist, so they stunned you.
+            You found yourself locked in some cage, wearing just a tunic. All your equipment was taken away...
+            That's the end of your adventure.
+        </text>
+        <end>loss</end>
+    </paragraph>
+    <paragraph id="49" type="singlepath">
+        <text>
+            You took a spear in your hands it was heavy and distorted, but you had no choice,
+            you had to take a swing and throw the spear towards target...
+            And you succeeded! It was quite a good throw, but you didn't hit the center.
+            Two well built man grabbed you under the arms and throw out the chamber using the northern door.
+            The leader appeared in th doorway, throw you some key to the ground, and said...
+            As we promised you, you are now free to go, but don't you ever dare to come back here,
+            because we will not let you free next time. Take this key and unlock your chains...
+            The door smashed after them. You took a key and unlocked yourself.
+        </text>
+        <path>57</path>
+    </paragraph>
+    <paragraph id="50" type="itempick">
+        <text>
+            You took a spear in your hands it was heavy and distorted, but you had no choice,
+            you had to take a swing and throw the spear towards target...
+            It was perfect! You hit the center of the target!
+            There was an absolute silence... And the leader broke it by saying.
+            Look! He is the first one to accomplish it! Well done traveler.
+            You will be rewarded him with our golden key!..
+            Your chains were removed and you are free to go.
+            You left the chamber using the northern door. You were given your equipment back.
+        </text>
+        <item>9</item>
+        <path>57</path>
+    </paragraph>
+    <paragraph id="51" type="normal">
+        <text>
+            You have entered some cave which leads you to the north.
+            The image of the cave makes you suspicions and feel lack of self-confidence.
+            There are many bones and meat pieces all over this place.
+            You observed that there are a doors at the end of this room.
+            You want to leave this place as fast as you can, you are moving faster, you are almost running towards the doors...
+            And suddenly an ogre appeared in front of you, terrifyingly screaming.
+            He is about three meters high and has a scar across his chest.
+            Ogre are know to be very slow, so you can try to somehow bypass him and avoid combat.
+            You have to decide whether you want to fight, swipe left.
+            Or try to escape towards the northern doors, swipe right.
+        </text>
+        <paths>
+            <path swipe="right">60</path>
+            <path swipe="left">61</path>
+        </paths>
+    </paragraph>
+    <paragraph id="52" type="normal">
+        <text>
+            He has to be some guard on the duty, he is guarding the treasure for sure.
+            He turned his face towards you and began to speak.
+            Who are you traveler? You want to get to the treasure. Huh?
+            You will have to defeat me first to pass this northern doors.
+            I cannot let anyone in, unless I will be presented horn of the keeper,
+            but I heard it is just a fable...
+            If you have keeper's horn with you, swipe right, and show it to the guard.
+            Otherwise you will have to fight with him, swipe left.
+        </text>
+        <paths>
+            <path swipe="right" require="1">64</path>
+            <path swipe="left">63</path>
+        </paths>
+    </paragraph>
+    <paragraph id="53" type="itemloss">
+        <text>
+            You took out the golden claw from your bag and show it to them.
+            They looked at it curiously, and began to talk to each other...
+            After a moment one of them said.
+            Ok. That will be enough to pass...
+            They opened the doors and let you through saying.
+            Never come here again adventurer, or we will make one trophy from your head...
+            And they began to laugh. They shut the doors behind you.
+        </text>
+        <item>2</item>
+        <path>65</path>
+    </paragraph>
+    <paragraph id="54" type="normal">
+        <text>
+            You told them that you are not willing to pay, and they should let you through.
+            They stood up from their chairs with hate...
+            No one pass this chamber for free, my friend.
+            It seems that there is no other way than to fight or give them something valuable.
+            You can offer them golden claw, if you have it by, swiping right.
+            Or you will began to fight by, swiping left.
+        </text>
+        <paths>
+            <path swipe="right" require="2">53</path>
+            <path swipe="left">66</path>
+        </paths>
+    </paragraph>
+    <paragraph id="55" type="singlepath">
+        <text>
+            You leave the chamber using western door. The corridor you have entered turns right.
+        </text>
+        <path>14</path>
+    </paragraph>
+    <paragraph id="56" type="fight">
+        <text>
+            Behind the gate you meet a giant gray wolf. It is growling and barking at you.
+            There is nowhere to escape, you have to fight.
+        </text>
+        <path>67</path>
+        <creature>4</creature>
+    </paragraph>
+    <paragraph id="57" type="normal">
+        <text>
+            You adventure continues to the north. The corridor is long and lit with torches on both left and right wall.
+            It is surprisingly empty here. No doors, no chamber near, no creatures ahead.
+            So you continue walking forward. The journey seems to take ages..
+            Suddenly you heard a whiz of an arrow. You looked behind you and array just flew past your face.
+            Someone is chasing you. You decided to escape...
+            You are running as fast as you can to the north.
+            From time to time you can hear some arrow heading you, but you are lucky and non of them hits you.
+            You turn your head backward again, but you can't see anyone...
+            The corridor turns to the east. There is silence for a moment, and then you can hear a bow being drawn.
+            Again you looked over your shoulder, and this time you noticed a person wearing black light armor.
+            His face is covered by black mask.
+            This time he hits you. An arrow gazed your hip and you loose one point of a vitality...
+            You are running further and you notice a door on your right side.
+            You have to decide quickly whether you want to open them and go inside, swipe right.
+            Or you want to continue to run forward, swipe left.
+        </text>
+        <effects>
+            <effect attr="vit">-1</effect>
+        </effects>
+        <paths>
+            <path swipe="right">68</path>
+            <path swipe="left">69</path>
+        </paths>
+    </paragraph>
+    <paragraph id="58" type="normal">
+        <text>
+            Now you can leave the chamber using eastern door by, swiping right.
+            Or you can use the door leading north, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">59</path>
+            <path swipe="left">45</path>
+        </paths>
+    </paragraph>
+    <paragraph id="59" type="singlepath">
+        <text>
+            You left the chamber using the eastern door. The corridor you have entered turn left.
+            Just few meters later it turns right.
+            Suddenly you hear a howl of a dragon, you grab your sword and continue to walk forward.
+            You are thinking about how such beast could live in the place like that.
+            Finally you reach him. His scales are red, and he is about six meters high.
+            He is carrying a bag on his left wing.
+        </text>
+        <path>70</path>
+    </paragraph>
+    <paragraph id="60" type="fight">
+        <text>
+            You decided to face this mighty, but stupid creature.
+            The ogre shouts and dashes towards you.
+        </text>
+        <path>62</path>
+        <creature>2</creature>
+    </paragraph>
+    <paragraph id="61" type="checkluck">
+        <text>
+            You are trying to dodge his attacks and pass him to get to the doors behind him.
+            You have to try your luck if you want to escape the fight.
+        </text>
+        <unluckypath>71</unluckypath>
+        <luckypath>72</luckypath>
+    </paragraph>
+    <paragraph id="62" type="food">
+        <text>
+            You have entered a corridor which will lead you to the crossroad.
+            I think it is good time to eat some food and regenerate.
+            If you wish to do so, swipe up.
+            Otherwise continue your adventure by, swiping right.
+        </text>
+        <path>73</path>
+    </paragraph>
+    <paragraph id="63" type="fight">
+        <text>
+            You decided to fight with the guard. You have drawn your sword and set your fighting stance.
+            The guard rises his sword and waits for you to attack. That is going to be a hard fight.
+        </text>
+        <path>85</path>
+        <creature>3</creature>
+    </paragraph>
+    <paragraph id="64" type="singlepath">
+        <text>
+            You have opened the northern doors of the chamber. On the other side of the doors
+            new chamber begins.
+        </text>
+        <path>75</path>
+    </paragraph>
+    <paragraph id="65" type="singlepath">
+        <text>
+            You turned towards north and suddenly you noticed a dragon few meters in front of you.
+            His scales are red, and he is about six meters high.
+            He is carrying a bag on his left wing.
+        </text>
+        <path>70</path>
+    </paragraph>
+    <paragraph id="66" type="fight">
+        <text>
+            They have drawn they weapons and began to move towards you.
+            You are going to fight against them, but they will be treated as a single enemy.
+        </text>
+        <creature>5</creature>
+        <path>65</path>
+    </paragraph>
+    <paragraph id="67" type="normal">
+        <text>
+            It was a touch fight. You left the chamber using the eastern door.
+            You found yourself just next to the crossroad.
+            One of the paths leads you to the east, to a corridor which ends with another doors.
+            And one heading north...
+            If you want to go east, swipe right.
+            Otherwise, swipe left
+        </text>
+        <paths>
+            <path swipe="right">75</path>
+            <path swipe="left">76</path>
+        </paths>
+    </paragraph>
+    <paragraph id="68" type="crossroad">
+        <text>
+            You pulled the handle, but the doors are closed.
+            You decided to break them... Another corridor opened for you.
+            You take a few steps more and gate falls from the ceiling and blocks the path to the north.
+            You are safe now. There is no way that someone will pass these doors...
+            It was a good idea to choose this path, but breaking a doors wounds you and
+            you lose one point of a vitality.
+            There is a crossroad in front of you.
+            You can go east, where a dark and endless corridor guides, swipe right.
+            You can also continue your way to the south, where you can see some doors, swipe up.
+            There is also a possibility to go west, swipe left.
+            The hallway to the left is lit with torches and turns left.
+        </text>
+        <effects>
+            <effect attr="vit">-1</effect>
+        </effects>
+        <paths>
+            <path swipe="right">77</path>
+            <path swipe="up">75</path>
+            <path swipe="left">78</path>
+        </paths>
+    </paragraph>
+    <paragraph id="69" type="end">
+        <text>
+            You are still running as fast you can towards the east.
+            Another arrow flew towards you, but this time it hits you in te shoulder.
+            The impact was so heavy and pain so server that you almost fell to the ground,
+            but you put yourself together...
+            You don't know if the corridor was so long or it was because of pain you feel,
+            but the path seemed to be endless...
+            Finally there is the wall. There is no way to the left or to the right.
+            It is the dead end.
+            Suddenly you felt cold coming from your back...
+            Thats the end of you adventure, traveler.
+        </text>
+        <end>loss</end>
+    </paragraph>
+    <paragraph id="70" type="crossroad">
+        <text>
+            You took a few steps towards the dragon. He sits on the edge of the rift, looking towards its bottom.
+            He has noticed you and turned back. You are preparing yourself to fight...
+            But the dragon has spoken. What are you doing here stranger?
+            You have lowered your guard. It seems that he is not dangerous.
+            You have told him that you are looking for a treasure. And that you want to get to the
+            other side of this giant rift.
+            He told you that he is living here many years and he has never heard of any treasure hidden in this dungeon.
+            He also offered you a help. He can get you to the other side, if you will pay him.
+            If you have an emerald with you, swipe right.
+            If you have a golden claw, swipe left.
+            Otherwise, swipe up.
+        </text>
+        <paths>
+            <path swipe="right" require="6">81</path>
+            <path swipe="left" require="2">81</path>
+            <path swipe="up">83</path>
+        </paths>
+    </paragraph>
+    <paragraph id="71" type="fight">
+        <text>
+            You can see a narrow path on the right side of the ogre.
+            You have begun to run towards that direction and you found yourself just next to him.
+            Well... you didn't make it. Ogre grabbed you and thrust you back to the enterence of the cave.
+            You have to face the might ogre now.
+        </text>
+        <creature>2</creature>
+        <path>62</path>
+    </paragraph>
+    <paragraph id="72" type="singlepath">
+        <text>
+            You can see a narrow path on the right side of the ogre.
+            You have begun to run towards that direction and you found yourself just next to him.
+            And you were successful. This dumb creature wasn't able to react while you were moving so fast.
+            You opened the doors and shut them behind you...
+            The beast was broke the door and was trying to reach you with his giant hand,
+            but you were already to far for him to reach.
+        </text>
+        <path>62</path>
+    </paragraph>
+    <paragraph id="73" type="normal">
+        <text>
+            You feel a little tired of all this adventure, but you put yourself together and continue your journey.
+            You can now go east, using the hallway by, swiping right.
+            Or you can open the wooden door on your left, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">77</path>
+            <path swipe="left">75</path>
+        </paths>
+    </paragraph>
+    <paragraph id="74" type="end">
+        <text>
+            You have entered the another chamber. It is lit with kerosene lamps.
+            There are meany ornaments and trophies hanging on the wall.
+            Some golden, silver and bone necklaces are placed on the shelf on the western wall.
+            There is also a dragon's head trophy on the northern wall.
+            The floor is lined with marble slabs.
+            But what is most important is that a giant, wooden and silver, engraved chest is placed
+            in the middle of a chamber. The text engraved on the chest says, My legacy...
+            There is also a man sitting on it. You already know him. He is the man from the fountain chamber.
+            He stood up and began to speak...
+            The first time I met you I knew you were the one who should obtain this treasure.
+            These treasure, like all of the things here, belonged to the creator of these dungeon.
+            He died many years ago, but he has not had any heir, so in his last words he said to
+            me, that he wants to be buried here in this dungeon, in this chamber, and I should protect his
+            riches from the unworthy foes. But he also told me to give it to someone who truly
+            deserves it. And here you are now, you have passed many obstacles to get here and
+            I think you are the one who deserves it at most...
+            He opened a chest and you took a few steps towards it.
+            You have leaned over the chest. The things you saw inside made you have opened your mouth wide with astonishment.
+            But I won't tell you adventurer what was inside...
+            It is up to you to imagine what is inside.
+        </text>
+        <end>win</end>
+    </paragraph>
+    <paragraph id="75" type="end">
+        <text>
+            You have entered the another chamber. It is lit with kerosene lamps.
+            There are meany ornaments and trophies hanging on the wall.
+            Some golden, silver and bone necklaces are placed on the shelf on the western wall.
+            There is also a dragon's head trophy on the northern wall.
+            The floor is lined with marble slabs.
+            But what is most important is that a giant, wooden and silver, engraved chest is placed
+            in the middle of a chamber. The text engraved on the chest says, My legacy...
+            There is also a man sitting on it. He stood up and began to speak...
+            Welcome daredevil. You have stood against many trials to reach this chamber.
+            These treasure here, like all of the things here, belonged to the creator of these dungeon.
+            He died many years ago, but he has not had any heir, so in his last words he said to
+            me, that he wants to be buried here in this dungeon, in this chamber, and I should protect his
+            riches from the unworthy foes. But he also told me to give it to someone who truly
+            deserves it. And here you are now, you have passed many obstacles to get here and
+            I think you are the one who deserves it at most...
+            He opened a chest and you took a few steps towards it.
+            You have leaned over the chest. The things you saw inside made you have opened your mouth wide with astonishment.
+            But I won't tell you adventurer what was inside...
+            It is up to you to imagine what is inside.
+        </text>
+        <end>win</end>
+    </paragraph>
+    <paragraph id="76" type="normal">
+        <text>
+            You chose to go north. The corridor is short and immediately turns east.
+            There is nothing really here, just a rough walls around you.
+            But you have reached another crossing.
+            This time you can enter some chamber on the right by, swiping right.
+            Or you can continue your path towards east, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">75</path>
+            <path swipe="left">77</path>
+        </paths>
+    </paragraph>
+    <paragraph id="77" type="end">
+        <text>
+            The path continues to the east. You also notice a light source coming from the ceiling
+            at the end of a corridor. You began to dash towards that direction.
+            And found a leader which leads you up.
+            You have climbed up and found yourself outside of the dungeon.
+            You can see endless plain in front of you covered with grain.
+            Its is for sure not the path you should take.
+            You have turned back to get back to the dungeon.
+            But there were no hole by which you left.
+            There is just a solid rock. You began to kick it, push it, and even pull it, but it was useless...
+            I am sorry adventurer, but your journey is over, you can't go back to the dungeon, but you were so close to the treasure.
+        </text>
+        <end>loss</end>
+    </paragraph>
+    <paragraph id="78" type="normal">
+        <text>
+            The path to the west leads you to the turning to the south.
+            You take a few steps more and you are at another crossing.
+            You can go west through the gate, swipe right.
+            Or you can open the doors on the east, swipe left.
+        </text>
+        <paths>
+            <path swipe="right">56</path>
+            <path swipe="left">75</path>
+        </paths>
+    </paragraph>
+    <paragraph id="80" type="normal">
+        <text>
+            You were unlucky and the dragon threw you from his back during a flight and you have fallen to the bottom of the rift.
+            You lost four points of vitality, because of the damage you have taken.
+            Now it is for you to decide whether you want to go to the west, swipe left,
+            where you can see some cave begins, and leads to the north.
+            Or you can go east, swipe right, where another cave begins and also leads to the north.
+        </text>
+        <effects>
+            <effect attr="vit">-4</effect>
+        </effects>
+        <paths>
+            <path swipe="left">39</path>
+            <path swipe="right">51</path>
+        </paths>
+    </paragraph>
+    <paragraph id="81" type="checkluck">
+        <text>
+            Let it be traveler, let it be. I will take you to the other side of the rift. Said the dragon.
+            He put your gift to his bag, and let you sit on his back.
+            You can feel that seems to be weak, maybe he is to old, and he lacks his old strength.
+            You have to try your luck to see if a dragon will get you to the other side.
+            The dragon spread his wings and soar into the air.
+        </text>
+        <luckypath>82</luckypath>
+        <unluckypath>80</unluckypath>
+    </paragraph>
+    <paragraph id="82" type="singlepath">
+        <text>
+            The dragon did it. He got you safely to the other side of the rift.
+            You came down from his back and thank him you a ride.
+            Farewell traveler! He said turning his head and leaned towards the bottom of the rift.
+            You are now seeing some doors to the chamber.
+            You opened them and saw a man armed with fine steel armor and giant sword.
+        </text>
+        <path>52</path>
+    </paragraph>
+    <paragraph id="83" type="singlepath">
+        <text>
+            You don't have anything to pay for a flight, so you began to persuade the dragon.
+            But it was useless, he told you that he will not do anything for free.
+            You had no choice so you made a mad decision. You jumped on the dragon's back.
+            The dragon soared into the air and began to toss. He is now flying over the rift.
+        </text>
+        <path>80</path>
+    </paragraph>
+    <paragraph id="85" type="singlepath">
+        <text>
+           You have defeated the guard and you are nor leaving the chamber using the northern doors.
+        </text>
+        <path>75</path>
+    </paragraph>
+</gamebook>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN TEXT -->
+    <string name="app_name">Gamebook</string>
+    <string name="made_by">Made by Jakub Ptak</string>
+    <string name="app_close">You have just closed the application.</string>
+
+    <!-- SPEECH -->
+    <string name="welcome_speech">Welcome to gamebook\'s main menu.
+        To start a new game, swipe right.
+        In order to load previous game, swipe left.
+        If you would like to hear the instruction, swipe up.
+        You can also close application by, swiping down.</string>
+    <string name="mainmenu_speech">
+        You are back in the main menu.
+        To start a new game, swipe right.
+        In order to load previous game, swipe left.
+        If you would like to hear the instruction, swipe up.
+        You can also close application by, swiping down.
+    </string>
+    <string name="speech_start">Speech started.</string>
+    <string name="speech_error">Error occurred in text to speech module.</string>
+
+    <!-- NAVIGATION STRINGS -->
+    <string name="swipe_right">right</string>
+    <string name="swipe_left">left</string>
+    <string name="swipe_up">up</string>
+    <string name="swipe_down">down</string>
+    <string name="game_left">You have left your game.</string>
+
+    <!-- ATTRIBUTES -->
+    <string name="attr_agility">agi</string>
+    <string name="attr_vitality">vit</string>
+    <string name="attr_luck">luck</string>
+
+    <!-- ERRORS -->
+    <string name="error_textToSpeech_initialization">TextToSpeech is not initialized!</string>
+    <string name="error_instruction_parsing">Error while parsing instruction xml document:</string>
+    <string name="error_reading_xml_document">Error occured while reading xml document</string>
+    <string name="error_stats_rolling">Error while statistics rolling occured.</string>
+
+    <!-- FILES -->
+    <string name="instruction_filename">instruction.xml</string>
+    <string name="gamebook_filename">shiver.xml</string>
+    <string name="gamebook_schema">gamebook.xsd</string>
+
+    <!-- MAIN MENU -->
+    <string name="mainmenu_instrucion_open">You have just opened the instruction</string>
+    <string name="mainmenu_new_game">New game started!</string>
+    <string name="character_stats">Your character has following statistics. Agility. {0}.. Vitality. {1}.. Luck. {2}.</string>
+
+    <!-- INSTRUCTION -->
+    <string name="instruction_finished">Instruction finished</string>
+    <string name="instruction_opened">
+        Instruction opened. Instruction consists of several points.
+        To hear next instruction entry, swipe left, or to come back to previous entry, swipe right.
+        When you are done, you can come back to main menu by swiping down.
+    </string>
+    <string name="instrution_end">There is no more instruction points.</string>
+    <string name="instrution_start">You are at the beginning of the instruction.</string>
+    <string name="instrution_back">You have just left the instruction and opened main menu.</string>
+
+    <!-- PARAGRAPH -->
+    <string name="paragraph_closed">You have just closed the game and opened main menu.</string>
+    
+    <!-- PARAGRAPH TYPES -->
+    <string name="singlepath_type">singlepath</string>
+    <string name="normal_type">normal</string>
+    <string name="food_type">food</string>
+    <string name="end_type">end</string>
+    <string name="crossroad_type">crossroad</string>
+    <string name="dicegame_type">dicegame</string>
+    <string name="itempick_type">itempick</string>
+    <string name="itemloss_type">itemloss</string>
+    <string name="checkluck_type">checkluck</string>
+    <string name="fight_type">fight</string>
+    
+    <!-- GAMEBOOK MESSAGES -->
+    <string name="is_required">is required.</string>
+
+    <!-- FOOD -->
+    <string name="restore_0">There is no need to eat a food.</string>
+    <string name="restore_1">You have no more food in your bag.</string>
+    <string name="restore_2">You have restored four points of vitality. Your current vitality is </string>
+    <string name="restore_3">Your vitality has beed restored to a maximal level.</string>
+
+    <!-- ITEMS -->
+    <string name="item_miscellaneous">miscellaneous</string>
+    <string name="item_apparel">apparel</string>
+    <string name="item_weapon">weapon</string>
+    <string name="item_armor">armor</string>
+
+    <!-- END -->
+    <string name="end_win">win</string>
+    <string name="end_loss">loss</string>
+    <string name="loss_text">You have lost. You can try to explore a dungeon again.</string>
+    <string name="win_text">You have won. You have found the treasure, but you can try to explore a dungeon again.</string>
+    <string name="death_text">Your adventure is over.</string>
+
+    <!-- ROLL -->
+    <string name="rolled">You have rolled </string>
+
+    <!-- FIGHT -->
+    <string name="fight_creature">You are now fighting with {0}. Its agility is equal to {1}. And it has {2} vitality points.</string>
+    <string name="fight_win_lucky">You have swung your weapon successfully and dealt a creature 4 damage.</string>
+    <string name="fight_win_unlucky">You have hit a creature, but it wasn\'t precise, so you deal 1 damage. </string>
+    <string name="fight_loss_lucky">Creature hits you, but you tried to dodged it and loose 1 vitality.</string>
+    <string name="fight_loss_unlucky">Creature deals you a heavy damage. You loose 3 vitality.</string>
+    <string name="fight_draw">You have both dodged your attacks.</string>
+    <string name="fight_status">Your current level of vitality is {0}. And creature has {1} vitality left.</string>
+    <string name="creature_slained">Creature has been defeated!</string>
+    <string name="fight_defeat">You have been defeated!</string>
+
+    <!-- SHAREDPREFERENCES -->
+    <string name="sp_agility">agility</string>
+    <string name="sp_vitality">vitality</string>
+    <string name="sp_max_vitality">maxVitality</string>
+    <string name="sp_luck">luck</string>
+    <string name="sp_foodAmount">foodAmount</string>
+    <string name="sp_items">items</string>
+    <string name="sp_current_paragraph">currentParagraph</string>
+    <string name="saving_successful">Current state of game saved</string>
+    <string name="saving_fail">There were some errors while saving the game.</string>
+    <string name="loading_successful">Saved state of game loaded.</string>
+    <string name="loading_fail">There were some errors while loading the game.</string>
+    <string name="loading_uncomplete">There is no save to be loaded.</string>
+
+</resources>
